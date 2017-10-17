@@ -13,6 +13,6 @@ How it works(work in progress):
 -esp8266 pulls some response (while he is not reciveing in serial input) from sql database on server and forwards them to arduino serial input where he parses string and turns ON or OFF digital pins depending on the value from server response
 
 
--web application is designed(writtne in PHP, HTML, CSS, JAVASCRIPT) to show values of sensors from readings written in sql database in time graph.
+-web application is designed(written in PHP, HTML, CSS, JAVASCRIPT) to show values of sensors from readings written in sql database in time graph.
 
--web application can controll pins on arduino by setting values in sql database. Esp8266 will pick up values and send them to arduino(only needs internet connection--no server/client connection)
+-web application can controll pins on arduino by setting values in sql database. Esp8266 will pick up values and send them to arduino(only needs internet connection)
